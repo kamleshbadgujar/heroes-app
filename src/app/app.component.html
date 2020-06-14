@@ -1,0 +1,17 @@
+<!-- <button class="btn btn-default" (click)="name()">getClaims</button>
+<h1> {{claims}} </h1>
+<button class="btn btn-default" (click)="validAccessToken()">getAccessToken</button>
+<h2>{{hasValidAccessToken}}</h2> -->
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<button class="btn btn-default" (click)="login()">
+  Login
+</button>
+<button class="btn btn-default" (click)="logoff()">
+  Logout
+</button>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
