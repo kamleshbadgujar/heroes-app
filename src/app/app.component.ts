@@ -16,7 +16,7 @@ export class AppComponent {
   }
 
   authConfig: AuthConfig = {
-    issuer: 'http://127.0.0.1:8080/auth/realms/heroes',
+    issuer: 'http://localhost:8080/auth/realms/heroes',
     redirectUri: window.location.origin + "/heroes",
     clientId: 'spa-heroes',
     //dummyClientSecret: '2ea5dc66-8e1c-4e7c-aac0-52a42594a6ac',
